@@ -45,11 +45,10 @@ ind++;
 else 
 { 
 printf("No safe sequence\n"); 
-} } 
+} 
+} 
 printf("Safe sequence is:"); 
 for(i=1;i<ind; i++) 
 printf("%s %d\n",job[safe[i]],time[safe[i]]); 
 getch();
  } 
- 
- 
