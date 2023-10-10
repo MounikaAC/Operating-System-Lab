@@ -54,7 +54,8 @@ printf("\n");
 finish[i]='y'; 
 printf("\nProcess %d executed?:%c \n",i+1,finish[i]); 
 count++; 
-} } 
+} 
+}
 if(count!=n) 
 goto A; 
 else 
